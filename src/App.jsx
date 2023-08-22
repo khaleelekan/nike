@@ -1,14 +1,15 @@
+import Nav from "./components/Nav";
+import Hero from "./sections/Hero";
 
-
-function App() {
- 
+const App = () => {
   return (
-    <>
-        <h1 className="text-5xl text-center text-orange-400 font-bold underline">
-      Hello world!
-    </h1>
-    </>
-  )
-}
+    <main className='relative'>
+      <Nav />
+      <section className='xl:padding-l wide:padding-r padding-b'>
+        <Hero />
+      </section>
+    </main>
+  );
+};
 
-export default App
+export default App;
