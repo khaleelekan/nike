@@ -1,10 +1,10 @@
 import Nav from "./components/Nav";
-import Hero from "./sections/Hero";
-import { PopularProducts } from "./sections/PopularProducts";
+import {Hero} from "./sections";
+import  {PopularProducts}  from "./sections";
 
 const App = () => {
   return (
-    <main className='relative'>
+    <main className='relative xl:padding-x'>
       <Nav />
       <section className='xl:padding-l wide:padding-r padding-b'>
         <Hero />
