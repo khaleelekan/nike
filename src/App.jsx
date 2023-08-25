@@ -1,6 +1,6 @@
 import Nav from "./components/Nav";
-import Hero from "./sections";
-import { PopularProducts } from "./sections";
+import Hero from "./sections/Hero";
+import { PopularProducts } from "./sections/PopularProducts";
 
 const App = () => {
   return (
@@ -10,8 +10,8 @@ const App = () => {
         <Hero />
       </section>
       <section className='padding'>
-        <PopularProducts />
-      </section>
+      <PopularProducts /> 
+      </section> 
     </main>
   );
 };
