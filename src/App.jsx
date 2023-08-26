@@ -1,6 +1,7 @@
 import Nav from "./components/Nav";
-import {Hero} from "./sections";
-import  {PopularProducts}  from "./sections";
+import {Hero,
+  PopularProducts,} from "./sections";
+import SuperQuality from "./sections/SuperQuality"
 
 const App = () => {
   return (
@@ -12,6 +13,9 @@ const App = () => {
       <section className='padding'>
       <PopularProducts /> 
       </section> 
+        <section className='padding'>
+        <SuperQuality />
+      </section>
     </main>
   );
 };

@@ -10,7 +10,7 @@
  export {
      Hero,
    PopularProducts,
-   SuperQuality
+   SuperQuality,
 //     // Services,
 //     // SpecialOffer,
 //     CustomerReviews,
